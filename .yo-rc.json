@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.tomkasp.jhipster",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "5.7.0",
+    "applicationType": "monolith",
+    "baseName": "jhipster5playground",
+    "packageName": "com.tomkasp.jhipster",
+    "packageFolder": "com/tomkasp/jhipster",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ZGJmODhhODhlNDg2NWZlNGM1M2UyZTA4YjRiYmI5OTBmMjE5MjJjMDFlMzA2YWIwYzAxMmI0NDY3N2MxOTk2YjhkOGE4NzRiNTBhZGRmYTdiODU3ODllNWNiZjBlNDFkZjE3OGVkYWViY2FhMWZkYzZkNjYzYWQ1MmMzOTk0YTU=",
+    "clientFramework": "angularX",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+version: '2'
+services:
+    jhipster5playground-postgresql:
+        image: postgres:10.4
+        # volumes:
+        #     - ~/volumes/jhipster/jhipster5playground/postgresql/:/var/lib/postgresql/data/
+        environment:
+            - POSTGRES_USER=jhipster5playground
+            - POSTGRES_PASSWORD=
+        ports:
+            - 5432:5432
